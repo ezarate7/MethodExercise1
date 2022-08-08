@@ -2,7 +2,7 @@
 
 namespace MethodExercise
 {
-    public class Program
+    internal class Program
     {
         static void Main(string[] args)
 
@@ -22,6 +22,16 @@ namespace MethodExercise
             Console.WriteLine("Thats awesome you like");
             Console.WriteLine(band);
 
+
+            var sum1 = Methods.Add(20, 50);
+            Console.WriteLine(sum1);
+            var sum2 = Methods.Subtract(100, 30);
+            Console.WriteLine(sum2);
+            var sum3 = Methods.Multiply(200, 10);
+            Console.WriteLine(sum3);
+           
+
+            
 
 
 
