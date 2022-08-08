@@ -13,14 +13,21 @@ namespace MethodExercise
             var name = Console.ReadLine();
             Console.WriteLine("Nice to meet you"); 
                 Console.WriteLine(name);
-            Console.WriteLine("What is your favorite color?");
+            Console.WriteLine("Enter your favorite color?");
             var color = Console.ReadLine();
-            Console.WriteLine("What is your favorite animal?");
+            Console.WriteLine("Enter an animal?");
             var animal = Console.ReadLine();
-            Console.WriteLine("What is your favorite band?");
+            Console.WriteLine("Enter a band?");
             var band = Console.ReadLine();
-            Console.WriteLine("Thats awesome you like");
-            Console.WriteLine(band);
+
+            Console.WriteLine($"{name} is a Manchester City fan \n" +
+                $"{name}'s favoite color is {color} because of his favorite team \n" +
+                $"{animal}'s are a representation of his spirit \n" +
+                $"{band} hits his soul \n" +
+                $"{name} loves his children and is doing coding for a better life");
+           
+
+
 
 
             var sum1 = Methods.Add(20, 50);
@@ -30,8 +37,10 @@ namespace MethodExercise
             var sum3 = Methods.Multiply(200, 10);
             Console.WriteLine(sum3);
            
+           
 
-            
+
+
 
 
 
