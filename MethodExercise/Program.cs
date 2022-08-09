@@ -25,18 +25,17 @@ namespace MethodExercise
                 $"{animal}'s are a representation of his spirit \n" +
                 $"{band} hits his soul \n" +
                 $"{name} loves his children and is doing coding for a better life");
-           
 
 
 
 
-            var sum1 = Methods.Add(20, 50);
-            Console.WriteLine(sum1);
-            var sum2 = Methods.Subtract(100, 30);
-            Console.WriteLine(sum2);
-            var sum3 = Methods.Multiply(200, 10);
-            Console.WriteLine(sum3);
-           
+            Methods.Add();
+          
+            //Console.WriteLine(Methods.Mod(6, 6));
+           // Console.WriteLine(Methods.Subtract(3, 3));
+           // Console.WriteLine(Methods.Multiply(4, 4));
+           // Console.WriteLine(Methods.Divide(5, 5));
+            
            
 
 

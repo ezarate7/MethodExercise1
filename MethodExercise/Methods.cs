@@ -6,10 +6,18 @@ namespace MethodExercise
 {
     internal class Methods
     {
-        public static int Add(int x, int y)
+
+        public static void Add()
         {
-            int answer = x + y;
-            return answer;
+            Console.WriteLine("Enter in a number");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter in a second number");
+            int num2 = int.Parse(Console.ReadLine());
+            var answer = num1 + num2;
+            Console.WriteLine($"{num1} + {num2} = {answer}");
+
+
+
 
 
         }
@@ -23,10 +31,38 @@ namespace MethodExercise
         {
             int answer = x - y;
             return answer;
+
+            
+        
+        
+        }
+        public static double Divide(int x, int y)
+        {
+            return x / y;
+
+
+        }
+        public static double Mod(int x, int y)
+        {
+            
+            return x % y;
+        
+        
         }
 
+        
         
 
 
     }
+
+   
+
+
+
+
+
+
+
 }
+
